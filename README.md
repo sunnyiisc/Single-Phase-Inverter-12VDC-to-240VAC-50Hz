@@ -31,6 +31,7 @@ Calculation for Filter Implementation:
 ![IMG_2515](https://user-images.githubusercontent.com/47363228/227035618-c9541153-1422-49bc-979e-70fac0285ad1.jpg)
 
 #### Filter Circuit Diagram
+Two Cascaded 1st order Low-Pass Filter is used to further supress the higher harmonics.
 <img width="1211" alt="Screenshot 2023-03-23 at 01 15 53" src="https://user-images.githubusercontent.com/47363228/227035959-ae981070-7229-4c94-a686-0de90cd2764c.png">
 
 #### Input and Output Waveforms:
