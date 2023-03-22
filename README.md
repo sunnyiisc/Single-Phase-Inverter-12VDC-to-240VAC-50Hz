@@ -8,6 +8,7 @@ Type of Inverter: Driven Type
 We will use a dual voltage type inverter with two switches.
 
 Calucaltions for the design:
+![IMG_2509](https://user-images.githubusercontent.com/47363228/226999858-5f1f0c1e-1ea1-4bf1-aefc-5beb22a31a6c.jpg)
 
 
 #### Circuit Diagram:
