@@ -4,7 +4,7 @@ Design of a Inverter Converting 12VDC to 240V single phase AC delivering 5kVA lo
 Tool to be used: Any Spice based simulator
 Type of Inverter: Driven Type
 
-## 1. Design with Ideal elements
+## 1. Design with Ideal elements (Bipolar Square Wave Generation)
 We will use a dual voltage type inverter with two switches.
 
 #### Circuit Diagram:
@@ -15,4 +15,3 @@ We will use a dual voltage type inverter with two switches.
 
 #### Intermediate Net Waveform:
 <img width="1310" alt="Screenshot 2023-03-22 at 21 38 15" src="https://user-images.githubusercontent.com/47363228/226968261-c2020e3a-12e0-411d-a8e6-fb413d79653f.png">
-
