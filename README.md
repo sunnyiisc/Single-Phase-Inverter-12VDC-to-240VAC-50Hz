@@ -7,6 +7,9 @@ Type of Inverter: Driven Type
 ## 1. Design with Ideal elements (Bipolar Square Wave Generation)
 We will use a dual voltage type inverter with two switches.
 
+Calucaltions for the design:
+
+
 #### Circuit Diagram:
 <img width="1369" alt="Screenshot 2023-03-22 at 21 35 46" src="https://user-images.githubusercontent.com/47363228/226967955-5d1ce540-b54e-4fd3-8221-a524622eb980.png">
 
