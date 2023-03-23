@@ -5,14 +5,14 @@ Tool to be used: Any Spice based simulator
 Type of Inverter: Driven Type
 
 ------------------
-## 1. Two Level Design
+## 1. Two Level Design (Half Bridge Configuration)
 
 View Design Document [click here](Two_Level_Design.md)
 
 Files: v0p*
 
 ------------------
-## 2. Three Level Design
+## 2. Three Level Design (Full Bridge Configuration)
 
 View Design Document [click here]()
 
