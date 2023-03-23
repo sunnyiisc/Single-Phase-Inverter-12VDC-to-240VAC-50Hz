@@ -1,0 +1,20 @@
+* /Users/sunnymac/Desktop/Project-Inverter/Spice_Files/single-phase-inverter_v0p1.asc
+S1 vout1 vdc s1 0 sw SW
+S2 0 vout1 s2 0 sw SW
+C1 vdc vout2 1m Rser=1m Rpar=10Meg
+C2 vout2 0 1m Rser=1m Rpar=10Meg
+V1 vdc 0 12 Rser=1m
+R1 vout1 vout2 100Meg
+V2 s2 0 PULSE(0 5 0 1n 1n 10m 20m 5)
+A1 s2 0 0 0 0 s1 0 0 BUF VHIGH = 5
+XU1 vout1 vp vdc 0 vp level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+L1 vn vp 1m Rser=1m
+L2 0 vo1 1.6 Rser=1m
+R2 vo1 0 10k
+XU2 vout2 vn vdc 0 vn level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+.model sw sw(Ron=1m Roff=1Meg Vt=0.5 Vh=0.1)
+.tran 0.1
+K L1 L2 1
+.lib UniversalOpAmp1.lib
+.backanno
+.end

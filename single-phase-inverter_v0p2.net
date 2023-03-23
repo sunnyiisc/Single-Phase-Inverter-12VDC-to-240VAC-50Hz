@@ -1,0 +1,32 @@
+* /Users/sunnymac/Desktop/Project-Inverter/Spice_Files/single-phase-inverter_v0p2.asc
+S1 vout1 vdc s1 0 sw SW
+S2 0 vout1 s2 0 sw SW
+C1 vdc vout2 1m Rser=1m Rpar=10Meg
+C2 vout2 0 1m Rser=1m Rpar=10Meg
+V1 vdc 0 12 Rser=1m
+V2 s2 0 PULSE(0 5 0 1n 1n 10m 20m 500)
+A1 s2 0 0 0 0 s1 0 0 BUF VHIGH = 5
+XU1 vout1 N007 vdc 0 N007 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+L1 vn vp 10µ Rser=1m
+L2 0 vo1 18m Rser=1m
+R2 vo1 0 10Meg
+XU2 vout2 vn vdc 0 vn level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+XU3 vn N001 vdc 0 N002 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R3 N001 N007 3k
+R4 N002 N001 1k
+C3 N002 N001 20µ
+XU4 vn N003 vdc 0 N004 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R5 N003 N002 3k
+R6 N004 N003 10k
+C4 N004 N003 2µ
+XU5 vn N005 vdc 0 N006 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R7 N005 N004 1k
+R8 N006 N005 30k
+XU6 N006 vp vdc 0 vp level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+.model sw sw(Ron=1m Roff=1Meg Vt=0.5 Vh=0.1)
+.tran 1
+K L1 L2 1
+* 2nd Order LPF
+.lib UniversalOpAmp1.lib
+.backanno
+.end
