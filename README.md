@@ -14,6 +14,6 @@ Files: v0p*
 ------------------
 ## 2. Three Level Design (Full Bridge Configuration)
 
-View Design Document [click here]()
+View Design Document [click here](Three_Level_Design.md)
 
 Files: v1p*
