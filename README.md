@@ -17,3 +17,10 @@ Files: v0p*
 View Design Document [click here](Three_Level_Design.md)
 
 Files: v1p*
+
+------------------
+## 3. Sinusoidal PWM Driven Design (Full Bridge Configuration)
+
+View Design Document [click here](test.md)
+
+Files: v3p*
