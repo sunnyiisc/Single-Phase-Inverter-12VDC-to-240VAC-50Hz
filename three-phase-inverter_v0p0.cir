@@ -1,0 +1,40 @@
+* /Users/sunnymac/Desktop/Project-Inverter/Spice_Files/single-phase-inverter_v2p0.asc
+S1 vR vdc vs1 0 SW
+S2 0 vR vs2 0 SW
+S3 vY vdc vs3 0 SW
+S4 0 vY vs4 0 SW
+S5 vB vdc vs5 0 SW
+S6 0 vB vs6 0 SW
+V1 vdc 0 12
+V2 vs1 0 PULSE(5 0 0 1n 1n 10m 20m 100)
+V3 vs3 0 PULSE(5 0 6.667m 1n 1n 10m 20m 100)
+V4 vs5 0 PULSE(5 0 13.333m 1n 1n 10m 20m 100)
+D1 vR vdc 1N914
+D2 0 vR 1N914
+D3 vY vdc 1N914
+D4 0 vY 1N914
+D5 vB vdc 1N914
+D6 0 vB 1N914
+A1 vs1 0 0 0 0 vs2 0 0 BUF
+A2 vs3 0 0 0 0 vs4 0 0 BUF
+A3 vs5 0 0 0 0 vs6 0 0 BUF VHIGH=5
+L1 vN vR 1m Rser=1m
+L2 vN vY 1m, Rser=1m
+L3 vN vB 1m Rser=1m
+L4 0 R 0.9 Rser=1m
+L5 0 Y 0.9 Rser=1m
+L6 0 B 0.9 Rser=1m
+R1 R 0 1Meg
+R2 Y 0 1Meg
+R3 B 0 1Meg
+.model D D
+.lib /Users/sunnymac/Library/Application Support/LTspice/lib/cmp/standard.dio
+.model SW SW(Ron=1m Roff=1Meg Vt=0.5 Vh=0.1)
+.tran 100m
+K1 L1 L4 1
+K2 L2 L5 1
+K3 L3 L6 1
+* 3-Phase Transformer
+* Star-Connected Load
+.backanno
+.end
