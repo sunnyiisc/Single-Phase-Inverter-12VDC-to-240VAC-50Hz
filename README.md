@@ -21,6 +21,6 @@ Files: v1p*
 ------------------
 ## 3. Sinusoidal PWM Driven Design (Full Bridge Configuration)
 
-View Design Document [click here](test.md)
+View Design Document [click here](Sinusoidal_PWM_Full-Bridge_Design.md)
 
 Files: v3p*
