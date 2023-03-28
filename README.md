@@ -23,4 +23,4 @@ Files: v1p*
 
 View Design Document [click here](Sinusoidal_PWM_Full-Bridge_Design.md)
 
-Files: v3p*
+Files: v2p*
