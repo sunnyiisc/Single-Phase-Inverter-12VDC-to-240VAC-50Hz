@@ -7,12 +7,16 @@ Calucaltions for the design:
 ![IMG_2558](https://user-images.githubusercontent.com/47363228/228324015-9f9496e0-9c8e-4e5e-a7af-5bc44aca722f.jpg)
 
 ### Circuit Diagram:
+<img width="1261" alt="image" src="https://user-images.githubusercontent.com/47363228/228352333-384c37b1-520e-49db-8a79-2081e9c767a5.png">
 
 
-### Input and Output and Switching control Waveforms:
+### Input Triangular, Pilot Sine and Output PWM, filtered PWM Waveforms:
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/47363228/228352628-0c7a94d4-69b1-4683-93c9-20c93e5c675d.png">
 
 
-### Fourier Transform of the output waveform:
+### Fourier Transform of the PWM and filtered output waveform:
+<img width="878" alt="image" src="https://user-images.githubusercontent.com/47363228/228352762-ba823a42-f354-44f5-aba3-c609b2ba68e9.png">
+
 
 
 # 2. Design with Ideal elements (Sinusoidal PWM)
