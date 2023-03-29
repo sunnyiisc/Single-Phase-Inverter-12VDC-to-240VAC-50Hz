@@ -46,6 +46,7 @@ Calucaltions for the design:
 We will use a dual voltage type inverter with four switches Full Bridge Configuration. The controlling singal will be two $180^o$ phase shifted sinusoidal PWM.
 
 Calucaltions for the design:
+![IMG_2568](https://user-images.githubusercontent.com/47363228/228641779-f4d121f4-9939-4855-b63c-11a770073b67.jpg)
 
 
 
