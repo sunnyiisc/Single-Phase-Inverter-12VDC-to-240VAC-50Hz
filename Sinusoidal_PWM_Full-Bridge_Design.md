@@ -40,3 +40,26 @@ Calucaltions for the design:
 
 ### Fourier Transform of the output waveform:
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/47363228/228626312-7869fdf6-9f29-4dba-9740-6958ecf99d70.png">
+
+
+# 3. Design with Ideal elements (Sinusoidal PWM) for pure sine wave
+We will use a dual voltage type inverter with four switches Full Bridge Configuration. The controlling singal will be two $180^o$ phase shifted sinusoidal PWM.
+
+Calucaltions for the design:
+
+
+
+### Circuit Diagram:
+
+
+
+### PWM Switching generation and switching control Waveforms:
+
+
+
+### PWM Switching and Output Waveforms:
+
+
+
+### Fourier Transform of the output waveform:
+
