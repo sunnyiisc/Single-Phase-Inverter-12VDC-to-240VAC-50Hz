@@ -20,9 +20,10 @@ Calucaltions for the design:
 
 
 # 2. Design with Ideal elements (Sinusoidal PWM)
-We will use a dual voltage type inverter with four switches Full Bridge Configuration.
+We will use a dual voltage type inverter with four switches Full Bridge Configuration. The controlling singal will be sinusoidal PWM.
 
 Calucaltions for the design:
+![IMG_2562](https://user-images.githubusercontent.com/47363228/228578696-99ae8e60-86ae-4b89-8f2a-c63d3902f39a.jpg)
 
 
 ### Circuit Diagram:
