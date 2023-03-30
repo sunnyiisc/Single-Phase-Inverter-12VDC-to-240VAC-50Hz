@@ -51,16 +51,20 @@ Calucaltions for the design:
 
 
 ### Circuit Diagram:
+<img width="1227" alt="image" src="https://user-images.githubusercontent.com/47363228/228746141-8d8243e1-4aea-4fa4-9c35-a392174ba3a5.png">
 
 
 
 ### PWM Switching generation and switching control Waveforms:
+<img width="487" alt="image" src="https://user-images.githubusercontent.com/47363228/228746593-c20ad887-8fe4-4edb-b6ec-f4314e4591b4.png">
 
 
 
-### PWM Switching and Output Waveforms:
+### Output Waveform and Filtered Output waveform:
+<img width="1022" alt="image" src="https://user-images.githubusercontent.com/47363228/228746982-20de0dea-6d52-4bee-86b3-edb989053abb.png">
 
 
 
-### Fourier Transform of the output waveform:
+### Fourier decomposition of the output waveform and filtered output waveform:
+<img width="905" alt="image" src="https://user-images.githubusercontent.com/47363228/228747147-8c668fcf-dad0-4a9c-8556-21dd63e2fd50.png">
 
