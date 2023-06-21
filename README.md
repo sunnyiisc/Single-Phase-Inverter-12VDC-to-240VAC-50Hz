@@ -9,18 +9,18 @@ Type of Inverter: Driven Type
 
 View Design Document [click here](Two_Level_Design.md)
 
-Files: v0p*
+Files: *_v0p*
 
 ------------------
 ## 2. Three Level Design (Full Bridge Configuration)
 
 View Design Document [click here](Three_Level_Design.md)
 
-Files: v1p*
+Files: *_v1p*
 
 ------------------
 ## 3. Sinusoidal PWM Driven Design (Full Bridge Configuration)
 
 View Design Document [click here](Sinusoidal_PWM_Full-Bridge_Design.md)
 
-Files: v2p*
+Files: *_v2p*
